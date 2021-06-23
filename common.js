@@ -19,7 +19,7 @@ includeCss('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslid
 
 $(document).ready(function () {
   alert();
-  $('.bxslider').bxSlider({
+  $('#wrap .bxslider').bxSlider({
     auto: true,
   });
 });
