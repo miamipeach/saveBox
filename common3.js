@@ -17,13 +17,11 @@ function includeCss(cssFilePath) {
   console.log('includeCss')
 }
 
+includeJS('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
+includeJS('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js');
+includeCss('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css');
 
 $(document).ready(function () {
-  includeJS('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
-  includeJS('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js');
-  includeCss('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css');
-
-
   alert();
   $('#wrap .bxslider').bxSlider({
     auto: true,
