@@ -26,7 +26,7 @@ function includeCss(cssFilePath) {
 
 
 
-$(document).ready(function async () {
+$(document).ready(async function() {
   console.log('ready 1')
 
   await includeJS('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
