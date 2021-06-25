@@ -42,4 +42,3 @@ function commonJs(){
     auto: true,
   });
 }
-
